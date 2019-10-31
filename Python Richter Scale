@@ -1,0 +1,17 @@
+end = True
+while end == True:
+    richter = float (input("Enter the Richter scale value"))
+    if richter == -99:
+        end= False
+    if richter < 0:
+        print ("Value must be greater than 0")
+    elif richter >= 8:
+        print ("Most structures fall")
+    elif richter >= 7:
+        print ("Many buildings destroyed")
+    elif richter >= 6:
+        print ("Many building considerably damaged, some collapse")
+    elif richter >= 4.5:
+        print ("Damage to poorly constructed buildings")
+    else:
+        print ("No destruction of buildings")
