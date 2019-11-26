@@ -1,0 +1,18 @@
+async function startProgram() {
+await roll(0, 80, 1.2333);
+stopRoll();
+await delay(2);
+await spin(90, 1);
+await roll(90, 80, 1.2333);
+stopRoll();
+await delay(2);
+await spin(-90, 1);
+await roll(0, 80, 1.5);
+stopRoll();
+await delay(2);
+await roll(90, 160, 1.9);
+stopRoll();
+await delay(2);
+await roll(220, 80, 2);
+await roll(220, 255, 1);
+}
